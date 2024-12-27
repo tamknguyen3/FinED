@@ -1,0 +1,3 @@
+module Investment = struct
+  
+end

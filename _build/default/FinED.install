@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/FinED/META"
+  "_build/install/default/lib/FinED/dune-package"
+  "_build/install/default/lib/FinED/opam"
+]
+bin: [
+  "_build/install/default/bin/FinED"
+]
+doc: [
+  "_build/install/default/doc/FinED/README.md"
+]

@@ -1,0 +1,29 @@
+(library
+ (name user)
+ (modules user)
+ (libraries core aid grant investment market)
+ (preprocess (pps ppx_deriving.show ppx_jane bisect_ppx)))
+
+(library
+ (name aid)
+ (modules aid)
+ (libraries core)
+ (preprocess (pps ppx_deriving.show ppx_jane bisect_ppx)))
+
+(library
+ (name grant)
+ (modules grant)
+ (libraries core)
+ (preprocess (pps ppx_deriving.show ppx_jane bisect_ppx)))
+
+(library
+ (name investment)
+ (modules investment)
+ (libraries core)
+ (preprocess (pps ppx_deriving.show ppx_jane bisect_ppx)))
+
+(library
+ (name market)
+ (modules market)
+ (libraries core)
+ (preprocess (pps ppx_deriving.show ppx_jane bisect_ppx)))
